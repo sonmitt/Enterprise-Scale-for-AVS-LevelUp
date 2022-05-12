@@ -65,6 +65,6 @@ jobs:
           app-name: 'function-AVShealthalert'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CDE388A65ADD447886DC4C655E4A2A89 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7B5319D3382E4E98A4614E6704A08A4C }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
