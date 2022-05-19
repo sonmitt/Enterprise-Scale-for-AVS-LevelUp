@@ -30,6 +30,11 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
+          
+      - name: Check file path
+        run: |
+          pwd
+          ls -al
 
       - name: Install dependencies
         run: pip install -r requirements.txt
