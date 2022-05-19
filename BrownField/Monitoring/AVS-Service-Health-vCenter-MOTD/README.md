@@ -1,5 +1,5 @@
 # AVS-SERVICEHEALTH-MOTD
-This repo is an Azure Function App that injests Service Alerts for Azure VMware Solution and set the Message Of the Daty in vCenter to alert vCenter users that maintenance is on going.
+This repo is an Azure Function App that injects Service Alerts for Azure VMware Solution and set the Message Of the Day in vCenter to alert vCenter users that maintenance is on going.
 ## Usage
 1. Setup an Azure Python Function App with vnet networking to a vnet that has access to your AVS instance
 2. Create a user managed identity and set the add to run as that user
